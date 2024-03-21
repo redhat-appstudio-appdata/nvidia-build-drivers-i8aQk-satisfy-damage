@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/ebelarte/nvidia-build-drivers@sha256:3740e2afd32f5602dee42650c2026950effa3e0cb7505f7001955ba9afc3982c
+      - image: quay.io/ebelarte/nvidia-build-drivers@sha256:2a2ad22d541836a77c115971bffcdc87900f66ac5837ceefab8a4327a43531d5
         name: container-image
         resources: {}
 status: {}
