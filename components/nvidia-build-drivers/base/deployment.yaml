@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nvidia-build-drivers
     spec:
       containers:
-      - image: quay.io/ebelarte/nvidia-build-drivers@sha256:9d7d056572e0a9480e37957d6e27311df3bc940e9b9814678e955a9a58ab24a1
+      - image: quay.io/ebelarte/nvidia-build-drivers@sha256:4009bdf02fa356e135cc9ee68038635b507edce79b9c373c5c36a7811a5fba5c
         imagePullPolicy: Always
         name: container-image
         ports:
